@@ -1,0 +1,27 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# YOLOv5 outputs
+runs/
+weights/
+*.pt
+
+# Data & model artifacts
+data/images/
+data/labels/
+custom_dataset/
+outputs/*.jpg
+
+# System files
+.DS_Store
+Thumbs.db
